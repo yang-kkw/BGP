@@ -17,7 +17,16 @@ __pycache__/
 # 数据集与标签文件
 *.csv
 *.txt
-dataset/
+# 仅忽略体积超标的完整标注文件
+dataset/clean_data.json
+dataset/clean_data_ocr.json
+
+# 图片文件继续全部忽略
+dataset/**/*.jpg
+dataset/**/*.png
+dataset/**/*.jpeg
+dataset/**/*.bmp
+dataset/**/*.webp
 
 # 第三方预训练模型与依赖文件夹
 pretrained/

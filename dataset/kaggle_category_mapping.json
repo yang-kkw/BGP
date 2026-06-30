@@ -1,0 +1,83 @@
+{
+  "description": "Category mapping from the original Kaggle Amazon Books Dataset to the reorganized 14 genres used in this work.",
+  "min_count": 100,
+  "category_map": {
+    "Literature & Fiction": "Literary Fiction",
+    "Mystery, Thriller & Suspense": "Genre Fiction",
+    "Science Fiction & Fantasy": "Genre Fiction",
+    "Popular Suspense": "Genre Fiction",
+
+    "Romance": "Romance",
+    "Harlequin Store": "Romance",
+
+    "Teen & Young Adult": "Comics & YA",
+    "Comics & Graphic Novels": "Comics & YA",
+    "Humor & Entertainment": "Comics & YA",
+    "LGBTQ+ Books": "Comics & YA",
+
+    "Children's Books": "Children",
+    "Seasonal Children's Books": "Children",
+    "Dear Santa Children's Books": "Children",
+
+    "Christian Books & Bibles": "Religion",
+    "Religion & Spirituality": "Religion",
+
+    "History": "History",
+    "Politics & Social Sciences": "History",
+    "Biographies & Memoirs": "History",
+
+    "Business & Money": "Business",
+
+    "Science & Math": "Science",
+    "Engineering & Transportation": "Science",
+    "Computers & Technology": "Science",
+    "Medical Books": "Science",
+
+    "Health, Fitness & Dieting": "Health",
+
+    "Cookbooks, Food & Wine": "Lifestyle",
+    "Crafts, Hobbies & Home": "Lifestyle",
+    "Sports & Outdoors": "Lifestyle",
+    "Travel": "Lifestyle",
+    "Parenting & Relationships": "Lifestyle",
+    "Self-Help": "Lifestyle",
+
+    "Education & Teaching": "Education",
+    "Test Preparation": "Education",
+    "New, Used & Rental Textbooks": "Education",
+    "Foreign Language Books": "Education",
+    "Textbook Rental ASINs": "Education",
+
+    "Arts & Photography": "Art",
+    "Reference": "Reference",
+
+    "nan": null,
+    "Boxed Sets": null,
+    "Large Print": null,
+    "Stationery, Journals & Notebooks": null,
+    "Deals in Books": null,
+    "ASINs for HQP": null,
+    "Popover Test": null,
+    "Blowout Books": null,
+    "Books Markdowns": null,
+    "Books on CD": null,
+    "Libros en español": null,
+    "Law": null
+  },
+  "label_map": {
+    "Art": 0,
+    "Business": 1,
+    "Children": 2,
+    "Comics & YA": 3,
+    "Education": 4,
+    "Genre Fiction": 5,
+    "Health": 6,
+    "History": 7,
+    "Lifestyle": 8,
+    "Literary Fiction": 9,
+    "Reference": 10,
+    "Religion": 11,
+    "Romance": 12,
+    "Science": 13
+  }
+}
